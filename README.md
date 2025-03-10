@@ -2,9 +2,14 @@
 AJL: Equitable AI for Dermatology Kaggle Competition 
 
 # Team Members
-  
+    Marylyn Uzoukwu
+    Izabel Miminoshvili
+    Gowri Nanda
+    Sarah Mammen 
+    
 # Project Highlights
-
+    Marylyn created the first submission with the Resnet34 model that worked. 
+    
 Clearly summarizes the key aspects of the project, techniques used, and major findings.
 
 # Setup & Execution
@@ -29,10 +34,13 @@ Clearly presents overall model performance using the evaluation metric, along wi
 
 # Impact Narrative
 
+
 AJL: Describes specific steps taken to address model fairness. Explores the broader potential impact of their work. Incorporates creative storytelling technique(s) to make their work accessible.
 
 
+
 Identifies model limitations, potential improvements, and future directions with strong reasoning. 
+
 
 # Total Score
 
