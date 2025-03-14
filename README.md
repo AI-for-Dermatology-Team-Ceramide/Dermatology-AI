@@ -8,7 +8,8 @@ AJL: Equitable AI for Dermatology Kaggle Competition
     Sarah Mammen 
     
 # Project Highlights
-    Marylyn created the first submission with the Resnet34 model that worked. 
+
+     Marylyn created the first submission with the Resnet34 model that worked. 
     
 Clearly summarizes the key aspects of the project, techniques used, and major findings.
 
@@ -17,16 +18,20 @@ Clearly summarizes the key aspects of the project, techniques used, and major fi
 Provides clear, functional instructions for setting up and running the project, ensuring reproducibility.
 
 # Project Overview
-
-Clearly explains the Kaggle competition, challenge objective, and its real-world significance.
+    The project is to create an image classification model that can help classify skin conditions for patients who are underrepresented 
+    and underresearched in the field of dermatology. The model takes images of samples of patients with a variety of skin conditions and 
+    needs to be capable of classifying what the skin condition is. 
 
 # Data Exploration
 
-Demonstrates strong data exploration, preprocessing, and visualization techniques with appropriate visuals.
+    Demonstrates strong data exploration, preprocessing, and visualization techniques with appropriate visuals.
+    
+    We explored the data by initially analyzing which columns there were, which data sets and values, how many data points, and the pictures of the conditions that 
 
 # Model Development
 
-As applicable, clearly describes model selection, hyperparameter tuning, and training approach, with justification for choices. 
+    As applicable, clearly describes model selection, hyperparameter tuning, and training approach, with justification for choices. 
+    We investigated five of the largest and most popular image classification algorithms and models, and we decided to use the ResNet models for image classificaiton. Each group member looked at one variant of the ResNet models and created a corresponding model that calculated predictions for the given data set. 
 
 # Results & Key Findings
 
