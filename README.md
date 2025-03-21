@@ -9,13 +9,13 @@ AJL: Equitable AI for Dermatology Kaggle Competition
     
 # Project Highlights
 
-     Marylyn created the first submission with the Resnet34 model that worked. 
+     Marylyn created the first submission with the Resnet34 model that worked. Isabel also worked on the Resnet101 model which also worked. Gowri worked on the Resnet18 model 
     
 Clearly summarizes the key aspects of the project, techniques used, and major findings.
 
 # Setup & Execution
 
-Provides clear, functional instructions for setting up and running the project, ensuring reproducibility.
+    First, our team created the 
 
 # Project Overview
     The project is to create an image classification model that can help classify skin conditions for patients who are underrepresented 
@@ -35,8 +35,7 @@ Provides clear, functional instructions for setting up and running the project, 
 
 # Results & Key Findings
 
-Clearly presents overall model performance using the evaluation metric, along with key insights and appropriate visuals.
-
+    There are 
 # Impact Narrative
 
 
