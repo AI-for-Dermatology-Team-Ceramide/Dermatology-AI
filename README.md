@@ -18,7 +18,7 @@ AJL: Equitable AI for Dermatology Kaggle Competition
 ### Project Highlights
 - A member, Marylyn Uzoukwu, has created the first submission with the Resnet34 model that resulted in an F1 score of 0.03757.
 - A member, Izabel Miminoshvili, has submitted a predicitons csv file with a ResNet100 model that resulted in an F1 score of 0.04687.
-- A member, Gowri Nanda, worked on the Resnet18 model. 
+- A member, Gowri Nanda, worked on the Resnet18 model.
 
 ## Methodology
 
@@ -26,7 +26,23 @@ AJL: Equitable AI for Dermatology Kaggle Competition
 - Members used Google Colab in order to run the models on their devices. The folder, bttai-ajl-2025, provided by Kaggle was uploaded to a shared folder on Google drive, which all team members have access to. To run the project, make sure that the correct paths are provided to gain access to the train.csv and test.csv files. 
 
 ### Data Exploration
-- The team explored the data by analyzing which columns were available, which datasets and values, how many data points, and the images of the conditions that were provided in the data. 
+- The team explored the data by analyzing which columns were available, which datasets and values, how many data points, and the images of the conditions that were provided in the data.
+
+![image](https://github.com/user-attachments/assets/b5422fb6-0e96-43af-ac69-8db844dbd477)
+
+![image](https://github.com/user-attachments/assets/da564dff-9292-4749-ba04-a13b0f538a2e)
+
+![image](https://github.com/user-attachments/assets/8576d03d-a4bf-4537-ae66-520cb14c2619)
+
+![image](https://github.com/user-attachments/assets/97ff730b-3079-4abf-98a0-9ee8ca72c503)
+
+![image](https://github.com/user-attachments/assets/0f5d90bc-b530-4dd4-a565-0c03a1765306)
+
+![image](https://github.com/user-attachments/assets/c9caaa05-9217-4da1-a141-871711eb9c50)
+
+![image](https://github.com/user-attachments/assets/6e3f2b3d-c7cd-411e-900e-62645f103e29)
+
+
 
 ### Model Development
 - We investigated five of the largest and most popular image classification algorithms and models, and we decided to use the ResNet models for image classificaiton. Each group member looked at one variant of the ResNet models and created a corresponding model that calculated predictions for the given data set. 
