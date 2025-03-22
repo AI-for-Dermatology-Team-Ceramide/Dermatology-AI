@@ -12,7 +12,8 @@ AJL: Equitable AI for Dermatology Kaggle Competition
 - [Acknowledgements](#acknowledgements)
     
 ## Project Overview
-- Build an ML model in order to classify 21 different skin conditions across diverse skin tones using the database provided by Kaggle, bttai-ajl-2025 folder. The model will be evaluated using weighted average F1 score. 
+- Build an ML model in order to classify 21 different skin conditions across diverse skin tones using the database provided by Kaggle, bttai-ajl-2025 folder. The model will be evaluated using weighted average F1 score.
+- This project aims to address the disparity in skin treatment of people with darker skin tones in Dermatology AI by training the model on different skin conditions across ranges of skin tones.
 
 ### Project Highlights
 - A member, Marylyn Uzoukwu, has created the first submission with the Resnet34 model that resulted in an F1 score of 0.03757.
