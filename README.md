@@ -15,6 +15,7 @@ AJL: Equitable AI for Dermatology Kaggle Competition
 - Build an ML model in order to classify 21 different skin conditions across diverse skin tones using the database provided by Kaggle, bttai-ajl-2025 folder. The model will be evaluated using weighted average F1 score.
 - This project aims to address the disparity in skin treatment of people with darker skin tones in Dermatology AI by training the model on different skin conditions across ranges of skin tones.
 - We participated in a Kaggle competition hosted by the Algorithmic Justice League (AJL), an organization dedicated to highlighting the social implications and potential harms of AI. AJL works to increase awareness and advocate for ethical AI practices to help prevent these harms.
+- Through this competition, we engaged in hands-on problem-solving, gaining deeper insights into biases in AI and the importance of developing inclusive machine learning models.
 
 ### Project Highlights
 - A member, Marylyn Uzoukwu, has created the first submission with the Resnet34 model that resulted in an F1 score of 0.03757.
