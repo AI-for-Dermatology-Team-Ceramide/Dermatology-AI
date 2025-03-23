@@ -59,7 +59,7 @@ AJL: Equitable AI for Dermatology Kaggle Competition
 
 
 ## Total Score
-* Needs to be added * 
+Our selected ResNet101 model ended up with an F1 score of 0.04687. 
 
 ## Project Milestones and Timeline 
 - **Milestone 1:** Exploratory Data Analysis
