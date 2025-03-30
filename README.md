@@ -55,9 +55,9 @@ AJL: Equitable AI for Dermatology Kaggle Competition
 ## Impact Narrative
 - AJL: Describes specific steps taken to address model fairness. Explores the broader potential impact of their work. Incorporates creative storytelling technique(s) to make their work accessible.
 
-- Identifies model limitations, potential improvements, and future directions with strong reasoning. 
 
 ## Next Steps & Future Improvements 
+- Identifies model limitations, potential improvements, and future directions with strong reasoning. 
 
 
 
