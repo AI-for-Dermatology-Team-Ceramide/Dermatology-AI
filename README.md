@@ -75,7 +75,11 @@ Visuals
 
 
 ## Impact Narrative
-- AJL: Describes specific steps taken to address model fairness. Explores the broader potential impact of their work. Incorporates creative storytelling technique(s) to make their work accessible.
+The impact of bias within the field of dermatology is distinct and observed through the clear disparity in rates of study, diagnosis, and treatment of people with darker skin tones. In this competition, we are working to address these disparities in the treatment of people with darker skin tones through the employment of AI tools that can be used to classify various skin conditions across color lines. 
+
+We utilized data augmentation techniques to offset some of the hardships that come along with this field of study, such as overfitting and the inability to generalize over unseen data. Particularly in cases in which you have a small data set, as in the case of study of skin conditions in darker skin, these issues are prone to arise due to biased research methods that may occur. Therefore, in our augmentation, we perform techniques such as increasing rotation, zoom, and brightness of the images in the data set to try and offset the model’s propensity to over or underfit. 
+
+Our project has the capacity to correct disparities in the diagnostic capability and treatment of people of diverse skin tones, and our use of data augmentation allows us to improve parity of model performance.
 
 
 ## Next Steps and Future Improvements 
