@@ -5,6 +5,9 @@ AJL: Equitable AI for Dermatology Kaggle Competition
 - [Project Overview](#project-overview)
 - [Methodology](#methodology)
 - [Results and Key Findings](#results-and-key-findings)
+- [Impact Narative](#impacr-narative)
+- [Next Steps and Future Improvements](#next-steps-and-future-improvements)
+- [Total Score](#total-score)
 - [Project Milestones and Timeline](#project-milestones-and-timeline)
 - [Data Overview](#data-overview)
 - [Python Libraries Used](#python-libraries-used)
@@ -72,7 +75,7 @@ Visuals
 - AJL: Describes specific steps taken to address model fairness. Explores the broader potential impact of their work. Incorporates creative storytelling technique(s) to make their work accessible.
 
 
-## Next Steps & Future Improvements 
+## Next Steps and Future Improvements 
 - Identifies model limitations, potential improvements, and future directions with strong reasoning. 
 
 
