@@ -50,7 +50,24 @@ AJL: Equitable AI for Dermatology Kaggle Competition
 - We investigated five of the largest and most popular image classification algorithms and models, and we decided to use the ResNet models for image classificaiton. Each group member looked at one variant of the ResNet models and created a corresponding model that calculated predictions for the given data set. 
 
 ## Results and Key Findings
-- Clearly presents overall model performance using the evaluation metric, along with key insights and appropriate visuals.
+The F1 score was used to evaluate the model's performance 
+- The Resnet18 highest F1 score: 0.00150
+- The Resnet32 highest F1 score: 0.04107
+- The Resnet101 highest F1 score: 0.04687
+
+Key Insights: 
+- The F1 score improved as the depth of the Resnet architecture increased
+- Deeper models like ResNet-101 were better at identifying patterns and distinguishing features in images compared to shallower models like ResNet-18 and ResNet-32.
+- Shallow models (ResNet-18) may have difficulties in capturing subtle differences in skin conditions, especially across diverse skin tones.
+- Deeper models (ResNet-101) can learn more complex patterns, helping to improve detection and classification accuracy.
+- Skin conditions can appear differently on various skin tones, making classification more challenging.
+- A deeper model can capture fine details like color variations, texture differences, and lesion shapes, leading to better generalization across different skin tones
+
+Visuals
+  ![image](https://github.com/user-attachments/assets/7639905e-b67a-4744-be3e-5a010485cfbe)
+  ![image](https://github.com/user-attachments/assets/58d25723-a0e4-4210-aedf-e9e5af91b0c7)
+
+
 
 ## Impact Narrative
 - AJL: Describes specific steps taken to address model fairness. Explores the broader potential impact of their work. Incorporates creative storytelling technique(s) to make their work accessible.
