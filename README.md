@@ -51,9 +51,9 @@ AJL: Equitable AI for Dermatology Kaggle Competition
 
 ## Results and Key Findings
 The F1 score was used to evaluate the model's performance 
-- The Resnet18 highest F1 score: 0.00150
-- The Resnet32 highest F1 score: 0.04107
-- The Resnet101 highest F1 score: 0.04687
+- Resnet18 highest F1 score: 0.00150
+- Resnet32 highest F1 score: 0.04107
+- Resnet101 highest F1 score: 0.04687
 
 Key Insights: 
 - The F1 score improved as the depth of the Resnet architecture increased
