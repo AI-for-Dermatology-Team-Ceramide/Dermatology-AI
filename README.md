@@ -26,12 +26,14 @@ AJL: Equitable AI for Dermatology Kaggle Competition
 - A member, Gowri Nanda, has tested the Resnet18 model with the F1 score of 0.001.
 
 ## Methodology
-Our group approached investigating one image classification model to try to optimize for the best results. We first started with the ResNet models, assigning each teammate to build one variant of the model. We achieved results for the ResNet18, ResNet34, and ResNet101 image classification models. 
+-  Before starting on the models, we researched the AJL dataset, investigated the categories of data, and preformed data preprocessing and cleaning. The data preprocessing and cleaning portion included our research and understanding of the data including which categories to keep and use for the model.
+-  
+Our group approached investigating one image classification model to try to find the model for the best results. We first researched many models and decided to start with implementing the ResNet models, assigning each teammate to build one variant of the model. The ResNet models were chosen as they had many variants of convolutional neural network layers which we could use to compare the accuracy of different models. We achieved results for the ResNet18, ResNet34, and ResNet101 image classification models which respectively contained 18, 34, and 101 layers in the neural network. We then implemented the models in a Jupyter Notebook, ipynb, file to process the data and model. To implement the models in the Jupyter notebook files, we first followed our cleaning and preprocessing stages, utilized PyTorch and Keras to build the original models, and then finetuned and tested the models based on our training and testing dataset. Afterwards, we evaluated the f1 score for evaluating how precise a model is. After initially implementing our models, we worked on debugging issues with our current models and started on implementing data augmentation methods.  
 
 ### Setup & Execution
 - Members used Google Colab in order to run the models on their devices. The folder, bttai-ajl-2025, provided by Kaggle was uploaded to a shared folder on Google drive, which all team members have access to. To run the project, make sure that the correct paths are provided to gain access to the train.csv and test.csv files.
 
-- For the ResNet18 model, Kaggle was used as the main development tool to build and test the model for the GPU capabilities. 
+- For the ResNet18 model, Kaggle was used as the main development tool to build and test the model for the GPU capabilities. The model was built, tested, and ran on the Kaggle website in a notebook. 
 
 ### Data Exploration
 - The team explored the data by analyzing which columns were available, which datasets and values, how many data points, and the images of the conditions that were provided in the data.
@@ -84,8 +86,9 @@ Our project has the capacity to correct disparities in the diagnostic capability
 
 ## Next Steps and Future Improvements 
   We were able to show that without further optimization, higher levels of the ResNet models had higher accuracies and scores with predicting images. The ResNet18 model had the lowest accuracy, while the ResNet101 model had the highest. For the future, we aim to focus on one model to optimize it to try to get better results. Additionally, the ResNet image classification model was not the only image classificaiton model that we were planning to use. We also investigated the DenseNet, GoogleNet, AlexNet, and LENet models for image classification which can be possible options to test.
-    While our current ResNet models had lower accuracies, the best path would be to try a variety of data augmentation strategies and optimization strategies to improve the model's accuracy. Since the ResNet101 model had the highest, we can aim for optimizing the ResNet101 model using the additional data given by Kaggle. 
-  
+    While our current ResNet models had lower accuracies, the best path would be to try a variety of data augmentation strategies and optimization strategies to improve the model's accuracy. Since the ResNet101 model had the highest, we can aim for optimizing the ResNet101 model using the additional data given by Kaggle. One step we were working on before the competition ended was implementing data agumentation in the ResNet34 model, which was able to slightly increase the accuracy. If we are able to apply data augmentation as well as future testing towards our most accurate model, then it is likely that we can improve the results of our model. 
+    If we choose to build and implement models that are alternative to ResNet models, we can also utilize similiar optimization strategies that can improve the accuracy of our model. 
+    The first next step is to optimize our highest accuracy model. For further research, we can also try to optimize and adjust the other models with a lower accuracy and compare the optimization strategies with the different models. More research and development is needed to improve the models. 
 
 
 
