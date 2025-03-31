@@ -64,7 +64,6 @@ Key Insights:
 - A deeper model can capture fine details like color variations, texture differences, and lesion shapes, leading to better generalization across different skin tones
 
 Visuals
-  ![image](https://github.com/user-attachments/assets/7639905e-b67a-4744-be3e-5a010485cfbe)
   ![image](https://github.com/user-attachments/assets/58d25723-a0e4-4210-aedf-e9e5af91b0c7)
 
 
