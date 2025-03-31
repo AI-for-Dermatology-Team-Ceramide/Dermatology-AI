@@ -5,7 +5,7 @@ AJL: Equitable AI for Dermatology Kaggle Competition
 - [Project Overview](#project-overview)
 - [Methodology](#methodology)
 - [Results and Key Findings](#results-and-key-findings)
-- [Impact Narrative](#impacr-narrative)
+- [Impact Narrative](#impact-narrative)
 - [Next Steps and Future Improvements](#next-steps-and-future-improvements)
 - [Total Score](#total-score)
 - [Project Milestones and Timeline](#project-milestones-and-timeline)
