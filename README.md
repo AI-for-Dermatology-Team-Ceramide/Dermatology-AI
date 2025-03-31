@@ -23,12 +23,15 @@ AJL: Equitable AI for Dermatology Kaggle Competition
 ### Project Highlights
 - A member, Marylyn Uzoukwu, has created the first submission with the Resnet34 model that resulted in an F1 score of 0.03757.
 - A member, Izabel Miminoshvili, has submitted a predicitons csv file with a ResNet100 model that resulted in an F1 score of 0.04687.
-- A member, Gowri Nanda, worked on the Resnet18 model.
+- A member, Gowri Nanda, has tested the Resnet18 model with the F1 score of 0.001.
 
 ## Methodology
+Our group approached investigating one image classification model to try to optimize for the best results. We first started with the ResNet models, assigning each teammate to build one variant of the model. We achieved results for the ResNet18, ResNet34, and ResNet101 image classification models. 
 
 ### Setup & Execution
-- Members used Google Colab in order to run the models on their devices. The folder, bttai-ajl-2025, provided by Kaggle was uploaded to a shared folder on Google drive, which all team members have access to. To run the project, make sure that the correct paths are provided to gain access to the train.csv and test.csv files. 
+- Members used Google Colab in order to run the models on their devices. The folder, bttai-ajl-2025, provided by Kaggle was uploaded to a shared folder on Google drive, which all team members have access to. To run the project, make sure that the correct paths are provided to gain access to the train.csv and test.csv files.
+
+- For the ResNet18 model, Kaggle was used as the main development tool to build and test the model for the GPU capabilities. 
 
 ### Data Exploration
 - The team explored the data by analyzing which columns were available, which datasets and values, how many data points, and the images of the conditions that were provided in the data.
@@ -76,8 +79,9 @@ Visuals
 
 
 ## Next Steps and Future Improvements 
-- Identifies model limitations, potential improvements, and future directions with strong reasoning. 
-
+  We were able to show that without further optimization, higher levels of the ResNet models had higher accuracies and scores with predicting images. The ResNet18 model had the lowest accuracy, while the ResNet101 model had the highest. For the future, we aim to focus on one model to optimize it to try to get better results. Additionally, the ResNet image classification model was not the only image classificaiton model that we were planning to use. We also investigated the DenseNet, GoogleNet, AlexNet, and LENet models for image classification which can be possible options to test.
+    While our current ResNet models had lower accuracies, the best path would be to try a variety of data augmentation strategies and optimization strategies to improve the model's accuracy. Since the ResNet101 model had the highest, we can aim for optimizing the ResNet101 model using the additional data given by Kaggle. 
+  
 
 
 
